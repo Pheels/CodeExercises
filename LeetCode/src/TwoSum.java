@@ -1,3 +1,10 @@
+/*
+ * Exercises taken from https://leetcode.com/problems
+ * Author: Oliver McPheely
+ * Date: 11/05/2018
+ * Github: https://github.com/Pheels
+ */
+
 
 public class TwoSum {
 	public static void main(String[] args){
