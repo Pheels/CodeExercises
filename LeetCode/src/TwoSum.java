@@ -1,10 +1,9 @@
 /*
- * Exercises taken from https://leetcode.com/problems
+ * Exercise: https://leetcode.com/problems/two-sum
  * Author: Oliver McPheely
  * Date: 11/05/2018
  * Github: https://github.com/Pheels
  */
-
 
 public class TwoSum {
 	public static void main(String[] args){
@@ -21,7 +20,6 @@ public class TwoSum {
 	}
 	
     public static int[] twoSum(int[] nums, int target) {
-  
     	for (int i = 0; i < nums.length; i++){
     		for (int x = 0; x < nums.length; x++){
     			if (nums[i] + nums[x] == target){
