@@ -23,17 +23,19 @@ public class LongestPrefix {
 			char[] chars = args[i].toCharArray();
 			int index = 0;
 			for (char c: args[i].toCharArray()) {
-				if (firstword.toCharArray()[index] == c) {
+				if (firstWord.toCharArray()[index] == c) {
 					index++;
 					match += c;
 				} else {
 					match = match.substring(0, index);
 				}
 			}
-			if (match.length() > 0) P
+		}
+		if (match.length() > 0) {
 			return match;
 		} else {
 			return "No Common Prefix";
 		}
 	}
 }
+
