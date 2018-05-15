@@ -20,7 +20,6 @@ public class LongestPrefix {
 		String match = new String();
 		String firstWord = args[1];
 		for (int i = 1; i < args.length; i++) {
-			char[] chars = args[i].toCharArray();
 			int index = 0;
 			for (char c: args[i].toCharArray()) {
 				if (firstWord.toCharArray()[index] == c) {
