@@ -1,3 +1,11 @@
+
+/*
+ * Exercise: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ * Author: Oliver McPheely
+ * Date: 17/05/2018
+ * Github: https://github.com/Pheels
+ */
+
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args){
         int[] input =  {0,0,1,1,1,1,2,2,2,3,3,4,5};
