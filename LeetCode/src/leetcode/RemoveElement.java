@@ -1,4 +1,4 @@
-/* 
+package leetcode;/*
 * Exercise: https://leetcode.com/problems/remove-element/description/ 
 * Author: Oliver McPheely 
 * Date: 17/05/2018 

@@ -1,4 +1,4 @@
-/*
+package leetcode;/*
  * Exercise: https://leetcode.com/problems/fizz-buzz
  * Author: Oliver McPheely
  * Date: 14/05/2018

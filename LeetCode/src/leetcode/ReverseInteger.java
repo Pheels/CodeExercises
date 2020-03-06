@@ -1,4 +1,4 @@
-/*
+package leetcode;/*
  * Exercise: https://leetcode.com/problems/reverse-integer
  * Author: Oliver McPheely
  * Date: 11/05/2018

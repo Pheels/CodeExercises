@@ -1,4 +1,4 @@
-
+package leetcode;
 /*
  * Exercise: https://leetcode.com/problems/divide-two-integers/
  * Author: Oliver McPheely

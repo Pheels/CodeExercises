@@ -1,4 +1,4 @@
-/* 
+package leetcode;/*
 * Exercise: https://leetcode.com/problems/longest-common-prefix 
 * Author: Oliver McPheely 
 * Date: 15/05/2018 
