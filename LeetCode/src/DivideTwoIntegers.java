@@ -7,8 +7,8 @@
  */
 
 public class DivideTwoIntegers {
-    public static void main(String[] args){
-        int length = divideTwoIntegers(7, -3);
+    public static void run(int dividend, int divisor){
+        int length = divideTwoIntegers(dividend, divisor);
         System.out.println(length);
     }
     

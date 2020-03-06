@@ -6,9 +6,7 @@
  */
 
 public class TwoSum {
-	public static void main(String[] args){
-		int[] nums = {2, 12, 11, 15};
-		int target = 9;
+	public static void run(int[] nums, int target){
 		int[] solution = twoSum(nums, target);
 		if (solution != null){
 			for (int i = 0; i < solution.length; i++){

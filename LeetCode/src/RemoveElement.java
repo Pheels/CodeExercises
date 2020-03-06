@@ -6,8 +6,7 @@
 */ 
 
 public class RemoveElement {
-    public static void main(String[] args){
-        int[] input =  {0,1,2,2,3,0,4,2};
+    public static void run(int[] input){
         int length = removeElement(input, 2);
         System.out.println(length);
     }

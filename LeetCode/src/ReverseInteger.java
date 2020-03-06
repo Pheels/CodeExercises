@@ -8,8 +8,7 @@
 import java.util.ArrayList;
 
 public class ReverseInteger {
-	public static void main(String[] args){
-		int[] inputs = {123, -123, 120};
+	public static void run(int[] inputs){
 		for (int i = 0; i < inputs.length; i ++){
 			int result = reverseInt(inputs[i]);
 			System.out.println(result);

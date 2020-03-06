@@ -7,8 +7,7 @@
  */
 
 public class RemoveDuplicatesFromSortedArray {
-    public static void main(String[] args){
-        int[] input =  {0,0,1,1,1,1,2,2,2,3,3,4,5};
+    public static void run(int[] input){
         int length = removeDuplicates(input);
         System.out.println(length);
     }

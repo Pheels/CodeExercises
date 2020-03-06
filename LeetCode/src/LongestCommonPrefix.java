@@ -5,14 +5,9 @@
 * Github: https://github.com/Pheels 
 */ 
 
-public class LongestPrefix {
-	public static void main(String[] args) {
-		String[] in ={
-			"flower",
-			"flow",
-			"flight"
-		};
-		String prefix = longestCommonPrefix( in );
+public class LongestCommonPrefix {
+	public static void run(String[] args) {
+		String prefix = longestCommonPrefix( args );
 		System.out.println(prefix);
 	}
 

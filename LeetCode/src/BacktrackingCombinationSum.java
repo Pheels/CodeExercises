@@ -8,10 +8,8 @@
 
 import java.util.*;
 
-public class CombinationSum {
-    public static void main(String args[]) {
-        int[] candidates = {2,3,5};
-        int target = 8;
+public class BacktrackingCombinationSum {
+    public static void run(int candidates[], int target) {
         Arrays.sort(candidates);
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         backTrackSearch(result, new ArrayList<Integer>(), candidates, target, 0);
@@ -19,7 +17,7 @@ public class CombinationSum {
             System.out.println(res);
         }
     }
-    
+
     private static void backTrackSearch(List<List<Integer>> result, List<Integer> currentList, int candidates[], int target, int pointer){
     	if(target > 0){
     	    // for elements in shrinking array
@@ -35,7 +33,7 @@ public class CombinationSum {
     		    }
     		}
     	}
-    	else if(target == 0 ){
+    	else if(target == 0){
     		result.add(new ArrayList<Integer>(currentList));
     	}
     }
