@@ -1,6 +1,4 @@
-import codingbat.CountHi;
-import codingbat.PairStair;
-import codingbat.StringClean;
+import codingbat.*;
 import leetcode.recursion.BacktrackingCombinationSum;
 import leetcode.LongestCommonPrefix;
 
@@ -17,7 +15,11 @@ public class MainClass {
 //    System.out.println(AllStar.run("RandomString"));
 //    System.out.println(PairStair.run("Hello"));
 //    System.out.println(CountHi.run("Hello hi hi hi Hello"));
-    System.out.println(StringClean.run("yyzzza"));
+//    System.out.println(StringClean.run("yyzzza"));
+//    System.out.println(Array220.run( new int[]{0,2, 20, 84, 220}, 0));
+//    System.out.println(PowerN.run(3, 3));
+//    System.out.println(ChangeXY.run("helloxhelloxhellox"));
+
 
   }
 
