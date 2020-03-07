@@ -19,8 +19,9 @@ public class MainClass {
 //    System.out.println(Array220.run( new int[]{0,2, 20, 84, 220}, 0));
 //    System.out.println(PowerN.run(3, 3));
 //    System.out.println(ChangeXY.run("helloxhelloxhellox"));
-
-
+//    System.out.println(SumDigits.run(126));
+    System.out.println(CountAbc.run("helloabcabahello"));
+    
   }
 
   private static void runLeetCodeExercises() {
