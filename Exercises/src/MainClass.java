@@ -1,17 +1,24 @@
-import codingbat.*;
+import codingbat.CountX;
+import codingbat.Fibonacci;
+import interviewio.MostCommonInteger;
 import leetcode.recursion.BacktrackingCombinationSum;
-import leetcode.LongestCommonPrefix;
 
 public class MainClass {
   public static void main (String[] args){
     runLeetCodeExercises();
-    runOtherExercises();
+//    runCodingBatExercises();
+//    runInterviewIoExercises();
 
   }
-  private static void runOtherExercises(){
+
+  private static void runInterviewIoExercises() {
+    System.out.println(MostCommonInteger.run(new int[]{0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5,0,0,11,1,11,1,11,2,3,3,4,5}));
+  }
+
+  private static void runCodingBatExercises(){
 //    System.out.println(Factorial.run(6));
 //    System.out.println(Array11.run(new int[]{0,0,11,1,11,1,2,2,2,3,3,4,5}, 0));
-//    System.out.println(Fibonacci.run(3));
+    System.out.println(Fibonacci.run(300));
 //    System.out.println(AllStar.run("RandomString"));
 //    System.out.println(PairStair.run("Hello"));
 //    System.out.println(CountHi.run("Hello hi hi hi Hello"));
@@ -20,8 +27,8 @@ public class MainClass {
 //    System.out.println(PowerN.run(3, 3));
 //    System.out.println(ChangeXY.run("helloxhelloxhellox"));
 //    System.out.println(SumDigits.run(126));
-    System.out.println(CountAbc.run("helloabcabahello"));
-    
+//    System.out.println(CountAbc.run("helloabcabahello"));
+//    System.out.println(CountX.run("xxhihixxxhixx"));
   }
 
   private static void runLeetCodeExercises() {
@@ -36,7 +43,6 @@ public class MainClass {
     //    LeetCode.CountAndSay.run(4);
     //    LeetCode.smallerNumberThanCurrent.run(new int[]{8,1,2,2,3});
     //    LeetCode.ToLowerCase.run("LisT oF CapITaLs AnD NON CAps");
-
   }
 
   public static void runLongestCommonPrefix(){
@@ -46,7 +52,7 @@ public class MainClass {
             "flight"
     };
 
-    LongestCommonPrefix.run(in);
+//    LongestCommonPrefix.run(in);
   }
 
   public static void runBacktrackCombinationSum(){

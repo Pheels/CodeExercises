@@ -11,7 +11,6 @@ public class Fibonacci {
     public static int run(int n) {
         if (n==0)
             return 0;
-        System.out.println(n);
         return n + run(n-1);
     }
 }
